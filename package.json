@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "my portfolio website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fransco35/portfolio.git"
+  },
+  "author": "francis inegbenose",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fransco35/portfolio/issues"
+  },
+  "homepage": "https://github.com/Fransco35/portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
