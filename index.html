@@ -35,7 +35,7 @@
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
         <div class="container">
             
-            <!-- Text Logo - Use this if you don't have a graphic logo -->
+            <!-- Text Logo - Using this incase graphic logo is unavailable -->
             <!-- come back to this -->
             <a class="navbar-brand logo-text page-scroll" href="index.html">Francis</a>
 
@@ -56,18 +56,22 @@
                     </li>
 
                     <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#projects">Projects</a>
+                    </li>
+
+                    <li class="nav-item">
                         <a class="nav-link page-scroll" href="#contact">Contact</a>
                     </li>
                 </ul>
                 <span class="nav-item social-icons">
                     <span class="fa-stack">
-                        <a href="https://www.facebook.com/francis.inose.73/">
+                        <a href="https://www.github.com/fransco35">
                             <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-facebook-f fa-stack-1x"></i>
+                            <i class="fab fa-github fa-stack-1x"></i>
                         </a>
                     </span>
                     <span class="fa-stack">
-                        <a href="https://twitter.com/Fransco__">
+                        <a href="https://twitter.com/Francis__Dev">
                             <i class="fas fa-circle fa-stack-2x"></i>
                             <i class="fab fa-twitter fa-stack-1x"></i>
                         </a>
@@ -85,7 +89,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="text-container">
-                        <h1 class="h1-large">I create beautiful and efficient websites and web applications</h1>
+                        <h1 class="h1-large">I create and maintain websites and web applications</h1>
                         <a class="btn-solid-lg page-scroll" href="#about">About</a>
                         <a class="btn-outline-lg page-scroll" href="#contact"><i class="fas fa-user"></i>Contact Me</a>
                     </div> <!-- end of text-container -->
@@ -103,9 +107,10 @@
                 <div class="col-lg-12">
                     <div class="text-container first">
                         <h2>Hello I'm Francis</h2>
-                        <p>I'm a full-stack web developer. I work with creative and efficient tools to build responsive, efficient and smoothly interacting web applications.
-                         I'm passionate and confident in my skills and I derive joy in improving my skillset and learning new things. 
-                          </p>
+                        <p>I'm a full-stack web developer based in Nigeria. I like creating 
+                            visual appealing frontend products and also build the server side of 
+                            web applications for great user experience.
+                        </p>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -119,42 +124,59 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="h2-heading">Web Technologies</h2>
+                    <h2 class="h2-heading">Services</h2>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
             <div class="row">
                 <div class="col-lg-6">
                     <div class="text-box">
                         <i class="fas fa-code"></i>
-                        <h4>Front-End Development</h4>
-                        <p>I create responsive, web and mobile friendly web applications
-                             layout using front-end coding tools </p>
-                         <br>
-                         <h5>Front-end stack:</h5>
+                        <h4>Languages</h4>
                          <ul>
                              <li>HTML</li>
-                             <li>CSS</li>
-                             <li>Sass</li>
+                             <li>CSS & SCSS</li>
                              <li>JavaScript</li>
-                             <li>jQuery</li>
-                             <li>React</li>
-                             <li>Bootstrap</li>
+                             <li>TypeScript</li>
                          </ul>
                     </div> <!-- end of text-box -->
                 </div> <!-- end of col -->
+                
                 <div class="col-lg-6">
                     <div class="text-box">
                         <i class="fas fa-code"></i>
-                        <h4>Back-End Development</h4>
-                        <p>I perform the server side logic and integration of the front-end web applications. </p>
-                        <br>
-                        <br>
-                        <h5>Back-end stack:</h5>
+                        <h4>Frameworks</h4>
                         <ul>
-                            <li>Nodejs</li>
-                            <li>Express</li>
-                            <li>NoSQL(MongoDB)</li>
-                            <li>Firebase amongst others</li>
+                            <li>React.js</li>
+                            <li>jQuery</li>
+                            <li>Node.js</li>
+                            <li>Next.js</li>
+                        </ul>
+                    </div> <!-- end of text-box -->
+                </div> <!-- end of col -->
+
+                <div class="col-lg-6">
+                    <div class="text-box">
+                        <i class="fas fa-code"></i>
+                        <h4>Database</h4>
+                        <ul>
+                            <li>MongoDB</li>
+                            <li>Firebase</li>
+                            <li>PostgreSQL</li>
+                        </ul>
+                    </div> <!-- end of text-box -->
+                </div> <!-- end of col -->
+
+                <div class="col-lg-6">
+                    <div class="text-box">
+                        <i class="fas fa-code"></i>
+                        <h4>Others</h4>
+                        <ul>
+                            <li>Responsive Design and Development</li>
+                            <li>Version Control / Git</li>
+                            <li>API integration</li>
+                            <li>Testing and Debugging</li>
+                            <li>Web Performance Optimization</li>
+                            <li>Cross Browser Development</li>
                         </ul>
                     </div> <!-- end of text-box -->
                 </div> <!-- end of col -->
@@ -164,42 +186,75 @@
     <!-- end of services -->
     
     <!-- Works -->
-    <div class="basic-4">
+    <div id="projects" class="basic-4">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <h2 class="h2-heading">Projects</h2>
                 </div>
+                
                 <div class="col-lg-4">
                     <div class="text-container">
                         <div class="image-container">
-                            <a href="https://franscocommerce.herokuapp.com/">
-                                <img class="img-fluid" src="images/k-closet.png" alt="alternative">
-                            </a>
-                        </div> <!-- end of image-container -->
-                        <p> <strong>K-Closet:</strong> K-Closet is a full-stack ecommerce web application that enables users to select products, add to cart and checkout(for logged in users only) using paypal integration as its payment method. It allows its admin to add, edit and delete proucts and also track payment history of the products. It was built using React on the front-end, Nodejs for server-side rendering and mongoDB as its database  <a class="blue" href="https://franscocommerce.herokuapp.com/">Visit</a></p>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-                <div class="col-lg-4">
-                    <div class="text-container">
-                        <div class="image-container">
-                            <a href="https://veritasblog.herokuapp.com/">
+                            <a href="https://theveritasblog.onrender.com/">
                                 <img class="img-fluid" src="images/veritasblog.png" alt="alternative">
                             </a>
                         </div> <!-- end of image-container -->
-                        <p><strong>VeritasBlog:</strong> Veritasblog is a fullstack blog web application that enables visitors read various articles and the logged in admin to compose articles.It has both google and facebook authentication enabled. It was built using HTML, CSS, Bootstrap and Javascript on the frontend. Then Nodejs, Express and Ejs for serverside rendering and noSQL(MongoDB) as its database  <a class="blue" href="https://veritasblog.herokuapp.com/">Visit</a></p>
+                        <p><strong>VeritasBlog:</strong> This is blog web application that enables 
+                            visitors read various articles posted by authenticated users. Authenticated users are given the added
+                            advantage of  composing and posting articles on the blog. It also allows vistiors comment on individual blog posts 
+                            of their choice and has a built in search functionality making finding articles of interest easy for visitors.
+                             It was developed using JavaScript and Ejs on the client side and Nodejs on the serverside. Data storage was implemented using MongoDB
+                             <a class="blue" href="https://theveritasblog.onrender.com/">Visit</a>
+                        </p>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-4">
                     <div class="text-container">
                         <div class="image-container">
-                            <a href="https://fransco35.github.io/sparksLP/">
+                            <a href="https://usersgallery.web.app/">
+                                <img class="img-fluid" src="images/User-Gallery.png" alt="alternative">
+                            </a>
+                        </div> <!-- end of image-container -->
+                        <p><strong>UsersGallery:</strong> This is a web application that enables visitors browse through a list of
+                            random users contained in individual profile cards. It has a built in search functionality that enables vistiors
+                             to search for individual profiles by their username. Selection of favorite profiles can also be done by authenticated
+                             logged in visitors and profiles can also be un-selected simply by toggling the button that implements the selection feature.
+                             The application was built with React.js and user data was implement through API integration.
+                             <a class="blue" href="https://usersgallery.web.app/">Visit</a>
+                        </p>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-4">
+                    <div class="text-container">
+                        <div class="image-container">
+                            <a href="https://fransco35.github.io/businessLandingPage/">
                                 <img class="img-fluid" src="images/sparksLP.png" alt="alternative">
                             </a>
                         </div> <!-- end of image-container -->
-                        <p><strong>sparksLP:</strong> sparksLP is a responsive landing page built entirely with HTML and Sass(Scss) without the use of any CSS or JS framework <a class="blue" href="https://fransco35.github.io/sparksLP/">Visit</a></p>
+                        <p><strong>sparksLP:</strong> sparksLP is a seven sectioned responsive landing page built entirely
+                             with HTML and SCSS without the use of any CSS or JS framework. It has beautiful user interface 
+                             features which captures the attention of users upon engagement and interaction
+                             <a class="blue" href="https://fransco35.github.io/businessLandingPage/">
+                                Visit
+                            </a>
+                        </p>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
+                <div class="col-lg-4">
+                    <div class="text-container">
+                        <div class="image-container">
+                            <a href="https://fransco35.github.io/schoolLandingPage/">
+                                <img class="img-fluid" src="images/ckia.png" alt="alternative">
+                            </a>
+                        </div> <!-- end of image-container -->
+                        <p> <strong>Christ The King Academy:</strong>  This is a school website built with HTML, SCSS and jQuery.
+                            The overall layout was built by utilizing the power of CSS grid which made both responsiveness and architecture of the website easy to carry out.
+                            Advanced CSS (SCSS) was used to build each section and some components of the page and the BEM notation was also utilized to make the styling easier and more orderly.
+                               <a class="blue" href="https://fransco35.github.io/schoolLandingPage/">Visit</a></p>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                
             </div> <!-- end of row -->
         </div> <!-- end of container -->
     </div> <!-- end of basic-4 -->
@@ -263,21 +318,15 @@
                 <div class="col-lg-12">
                     <div class="social-container">
                         <span class="fa-stack">
-                            <a href="https://www.facebook.com/francis.inose.73/">
+                            <a href="https://www.github.com/fransco35/">
                                 <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-facebook-f fa-stack-1x"></i>
+                                <i class="fab fa-github fa-stack-1x"></i>
                             </a>
                         </span>
                         <span class="fa-stack">
-                            <a href="https://twitter.com/Fransco__">
+                            <a href="https://twitter.com/Francis__Dev">
                                 <i class="fas fa-circle fa-stack-2x"></i>
                                 <i class="fab fa-twitter fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="https://www.instagram.com/fransco__/">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-instagram fa-stack-1x"></i>
                             </a>
                         </span>
                         <span class="fa-stack">
